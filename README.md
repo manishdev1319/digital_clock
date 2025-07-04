@@ -23,7 +23,7 @@ A sleek digital clock built using **HTML, CSS, and JavaScript**, featuring:
 
 ## 🔊 Sound setup
 
-- Place a short sound file in `sounds/tick.mp3`.  
+- Place a short sound file in `tick.mp3`.  
 - Recommended: under 1 second for best results.
 
 ---
