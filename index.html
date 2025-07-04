@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Clock</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="clock">00:00:00</h1>
+    <p id="period">AM</p>
+    <p id="date">Loading date...</p>
+    <p id="timezone"></p>
+
+    <div class="controls">
+      <label class="switch">
+        <input type="checkbox" id="toggleTheme">
+        <span class="slider"></span>
+      </label>
+      <button id="toggleFormat">24-Hour</button>
+      <button id="toggleSound">🔈 Sound</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
